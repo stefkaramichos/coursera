@@ -2,12 +2,62 @@
 <html>
 	<head>
 		<style>
-		
+			@media (min-width: 992px){
+			h1{text-align:center; margin:50px;}
+			div{width:32%; background-color:gray; border: 2px solid black;}
+			#insideBox{background-color:#D59898; border: 2px solid black; margin:0px; float:right; width:100px; text-align:center;}
+			#p1{margin:20px;}
+			div{float:left; margin-right: 9px;}}
+			@media (min-width: 768px) and (max-width: 991px){
+			h1{text-align:center; margin:50px;}
+			#outsideBox1{width:48%; background-color:gray; border: 2px solid black;}
+			#outsideBox2{width:48%; background-color:gray; border: 2px solid black;}
+			#outsideBox3{width:98%; background-color:gray; border: 2px solid black;}
+			#insideBox{background-color:#D59898; border: 2px solid black; margin:0px; float:right; width:100px; text-align:center;}
+			#p1{margin:20px;}
+			div{float:left; margin-right: 9px; margin-bottom:9px;}}
+			@media (max-width: 767px){
+			h1{text-align:center; margin:50px;}
+			#outsideBox1{width:95%; background-color:gray; border: 2px solid black;}
+			#outsideBox2{width:95%; background-color:gray; border: 2px solid black;}
+			#outsideBox3{width:95%; background-color:gray; border: 2px solid black;}
+			#insideBox{background-color:#D59898; border: 2px solid black; margin:0px; float:right; width:100px; text-align:center;}
+			#p1{margin:20px;}
+			div{float:left; margin-right: 9px; margin-bottom:9px;}}
 		</style>
 	</head>
 	<body>
-	<h1>dddnaiiiiiiiiiiiyesssd</h1>
-	<p>pppppp</p>
-	<p>dfdss</p>
+		<h1>Our menu</h1>
+		<div id="outsideBox1">
+			<h3 id="insideBox">Chicken</h3>
+			<p id="p1">It is a long established fact that a reader will be 
+			distracted by the readable content of a page when looking at 
+			its layout. The point of using Lorem Ipsum is that it has a 
+			more-or-less normal distribution of letters, as opposed to 
+			using 'Content here, content here', making it look like
+			readable English.
+			</p>
+		</div>
+		<div id="outsideBox2">
+			<h3 id="insideBox" style="color:#ffffff; background-color:#C14543">Beef</h3>
+			<p id="p1">It is a long established fact that a reader will be 
+			distracted by the readable content of a page when looking at 
+			its layout. The point of using Lorem Ipsum is that it has a 
+			more-or-less normal distribution of letters, as opposed to 
+			using 'Content here, content here', making it look like
+			readable English.
+			</p>
+		</div>
+		<div id="outsideBox3" >
+			<h3 id="insideBox" style="background-color:#E5D198;">Sushi</h3>
+			<p id="p1">It is a long established fact that a reader will be 
+			distracted by the readable content of a page when looking at 
+			its layout. The point of using Lorem Ipsum is that it has a 
+			more-or-less normal distribution of letters, as opposed to 
+			using 'Content here, content here', making it look like
+			readable English.
+			</p>
+		</div>
+		
 	</body>
 </html>
