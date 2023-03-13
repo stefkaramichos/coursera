@@ -1,0 +1,14 @@
+#header-nav{height:100px; border: black solid 1px;
+background-color:gray; border-radius: 0;
+  border: 0;}
+.container{ margin-top:10px;}
+
+#dropdown{ text-align:right;}
+.dropdown-menu{float:right;}
+.btn{float:right;}
+#title{text-align:center; font-weight:bold;}
+#chicken{background-color:gray; margin:1px;}
+#chicken-title{text-align:center;}
+#content{font-size:18px;}
+#beef{background-color:gray; margin:1px;}
+#sushi{background-color:gray; margin:1px;}
